@@ -1,0 +1,27 @@
+.bottom{
+    width: 100%;
+    margin: 23px auto;
+}
+.child2{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    @media (max-width:960px) {
+        display: none;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 500;
+        color: rgb(98, 101, 106);
+        margin-bottom: 0px;
+    }
+    .child3{
+        @media (max-width:1050px) {
+            display: none;
+        }
+    }
+
+
+}

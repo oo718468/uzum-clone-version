@@ -1,0 +1,103 @@
+.card_item{
+    width: 232px;
+    
+    border-radius: 8px;
+    .card_title{
+        padding: 14px 4px;
+        .about_product{
+            p{
+                font-size: 11px;
+                font-weight: 400;
+                color: #000;
+            }
+        }
+        
+        .card_title_1{
+            display: flex;
+            gap: 4px;
+            position: relative;
+            top: 5px;
+            p{
+                font-size: 11px;
+                font-weight: 300;
+            }
+        }
+        .card_title_2{
+            width: 83.56px;
+            height: 17px;
+            border-radius: 5px;
+            position: relative;
+            top: 10px;
+            background-color: #ffff00;
+            p{
+                font-size: 11px;
+                font-weight: 400;
+               
+            }
+        }
+        
+        .span_block{
+            text-decoration: line-through;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .card_kozina_log{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .mini_korizna_11{
+                width: 32px;
+                height: 32px;
+                background: rgba(255, 255, 255, 0.002);
+                box-shadow: inset 0px 0px 0px 1px #D0D2D9;
+                border-radius: 16px;
+                display: flex;
+                align-items: center;
+            }
+            p{
+                font-size:14px;
+                font-weight: 500;
+                color: #000;
+            }
+           
+        }
+        
+    }
+    .card_item_child:hover{
+        box-shadow: 4px 3px 15px 5px rgba(85, 89, 92, 0.17);
+        transition: all 0.2s ease ;
+        cursor: pointer;
+        border-radius: 5px;
+       
+     
+    }
+   
+}
+.big_card{
+    display: grid;
+    flex-wrap: wrap;
+ 
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 4rem;
+    @media (max-width:1230px) {
+        grid-template-columns: auto auto auto auto ;
+        justify-content: space-around;
+    }
+    @media (max-width:990px) {
+        grid-template-columns: auto auto auto ;
+      
+    }
+    @media (max-width:745px) {
+        grid-template-columns: auto auto ;
+      
+    }
+    @media (max-width:495px) {
+        grid-template-columns: auto ;
+      
+    }
+  
+  
+}
+.xaitlik{
+    padding:15px 0;
+}

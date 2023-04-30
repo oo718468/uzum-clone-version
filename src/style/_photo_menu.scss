@@ -1,0 +1,176 @@
+.big_swapper{
+    max-width: 400px;
+}
+
+.swiper_slide_img1{
+img{
+    width: 84px;
+    height: 112px;
+}
+}
+.Swiper_slide_img2{
+   img{
+    width: 84px;
+    height: 112px;
+    padding: 5px 5px;
+    cursor: pointer;
+   }
+}
+.big_swapper1{
+    img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 554px;
+        width: 416px;
+    }
+}
+.header_swapper{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+
+    .swiper_right_item{
+        width: 670px;
+        height: 934px;
+        padding: 10px;
+    }
+    .swiper_header_info1{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        font-size: 13px;
+        font-weight: 400;
+        color: #62656A;
+        height: 36px;
+    }
+    }
+    #h1{
+        font-size: 22px;
+        font-weight: 400;
+        color: #212121;
+    }
+    .about_solder{
+        display: inline-flex;
+        align-items: self-end;
+        gap: 5rem;
+      
+    }
+    .dastafka{
+        display: flex;
+    align-items: baseline;
+    gap: 5rem;
+    }
+    .list1{
+        height: 1px;
+        background: rgb(98, 101, 106);
+        margin: 25px 0;
+    }
+    .input1{
+        display: flex;
+    white-space: nowrap;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    }
+    .swiper_price{
+     display: flex;
+    align-items: baseline;
+    gap: 2rem;
+    padding: 15px 0;
+    p{
+        font-size: 20px;
+        font-weight: 500;
+        color: #212121;
+    }
+    span{
+        text-decoration: line-through;
+    }
+    button{
+        width: 50.06px;
+        height: 21px;
+        background: #5000AA;
+        border-radius: 4px;
+        color: white;
+    }
+    }
+    .swiper_price_niput{
+        display: flex;
+        height: 54px;
+        background-color: #f5f6fa;
+        align-items: center;
+        border-radius: 5px;
+        gap: 5px;
+        padding: 10px;
+        span{
+            background-color: #ffff00;
+            padding: 4px;
+            border-radius: 6px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 500;
+            color: #000;
+        }
+    }
+    .swiper_button{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+        #but1{
+            width: 320px;
+            height: 56px;
+            text-align: center;
+            color: white;
+            background-color: #7000ff;
+            border-radius: 10px;
+        }
+        #but2{
+            width: 320px;
+            height: 56px;
+            text-align: center;
+            color: #7000ff;
+            background-color: white;
+            border: 1px solid #7000ff;
+            border-radius: 10px;
+        }
+        
+    }
+    .swiper_buy_people{
+        height: 41px;
+        border-radius: 10px;
+        background: rgba(255, 228, 51, 0.3);
+        text-align: start;
+        display: flex;
+        align-items: center;
+        padding: 0px 10px ;
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #141415;
+        }
+    }
+    .swiper-input{
+        p{
+            padding: 10px 0;
+        }
+    }
+    .swiper_footer_item{
+        padding: 15px 0px;
+        h4{
+            font-size: 14px;
+            font-weight: 500;
+            color: #212121;
+        }
+        p{
+            padding: 0px 15px;
+            color: black;
+            font-weight: 400;
+        }
+    }
+}
+
+

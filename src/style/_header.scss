@@ -1,0 +1,11 @@
+.big_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header_left{
+        gap: 10px;
+        p{
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.big_footer{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    p{
+        padding: 5px 0px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #4D4E59;
+
+    }
+    span{
+        font-weight: 500;
+        font-size: 14px;
+        color: #1F1F26;
+
+    }
+
+    .footer_item_1{
+        height: 217px;
+    }
+    .footer_item_2{
+        height: 217px;
+    }
+    .footer_item_3{
+        height: 217px;
+    }
+    .footer_item_4{
+        height: 217px;
+        .insta_logo{
+            margin-top: 3rem;
+            p{
+                font-weight: 500;
+                font-size: 14px;
+                color: #141415;
+
+            }
+        }
+    }
+}
+
+.mini_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    border-top: 1px solid #76797f;
+    p{
+        font-weight: 400;
+        font-size: 11px;
+       color: #4D4E59;
+
+    }
+}
